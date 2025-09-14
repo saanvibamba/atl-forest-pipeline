@@ -1,0 +1,29 @@
+# --- Python / build ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# --- Virtual envs ---
+.venv/
+venv/
+env/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+# (optional) keep notebooks code+markdown but not giant embedded outputs:
+# Use nbstripout; see section below.
+
+# --- OS/IDE noise ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Project data/results (don’t version raw/processed or generated outputs) ---
+notebooks/data/raw/
+notebooks/data/processed/
+notebooks/results/
+results/
+data/
